@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+<include file="$(find adaptive_pure_pursuit)/launch/parameters.launch" />
+<include file="$(find adaptive_pure_pursuit)/launch/tf_launcher.launch" />
+<node name="purepursuit_controller" pkg="adaptive_pure_pursuit" type="adaptive_pp_node.py" output="screen"></node>
+</launch>

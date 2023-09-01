@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<launch>
+
+    <param name="/gains/target_speed"  value="2.0"/>
+    <param name="/gains/lookahead"  value="0.01"/>
+
+    <param name="/look_ahead_constant"  value="2.5"/>
+    <param name="/base_length"  value="2.5"/>
+
+    <param name="/speed/max"  value="2.0"/>
+    <param name="/speed/min"  value="1.0"/>
+    <param name="/speed/target"  value="1.5"/>
+
+    <param name="/rate"  value="10"/>
+
+</launch>
